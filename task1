@@ -1,0 +1,13 @@
+import random
+
+randomlist = []
+
+while True:
+	randomlist.append(random.randint(1,50))
+	if len(randomlist) is 10:
+		break
+
+print(randomlist)
+print('Самое большое число:', max(randomlist))
+
+
